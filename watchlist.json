@@ -1,0 +1,34 @@
+{
+  "check_interval_seconds": 45,
+  "realert_interval_seconds": 300,
+  "confirm_delay_seconds": 6,
+  "default_settle_wait_ms": 4000,
+
+  "items": [
+    {
+      "name": "Nintendo Store - Zelda 40th Anniversary Edition (Console)",
+      "url": "https://www.nintendo.com/us/store/products/nintendo-switch-2-the-legend-of-zelda-40th-anniversary-edition-121642/",
+      "sold_out_phrases": ["sold out", "coming soon", "notify me", "unavailable", "out of stock", "find retailers"],
+      "in_stock_phrases": ["add to cart", "buy now"]
+    },
+    {
+      "name": "Target - Switch 2 Zelda 40th Anniversary Edition (Console)",
+      "url": "https://www.target.com/p/nintendo-8482-switch-2-the-legend-of-zelda-40th-anniversary-edition-console-system/-/A-1013322047",
+      "sold_out_phrases": ["sold out", "coming soon", "notify me", "out of stock"],
+      "in_stock_phrases": ["add to cart"],
+      "settle_wait_ms": 8000
+    },
+    {
+      "name": "GameStop - Switch 2 Zelda 40th Anniversary Edition (Console)",
+      "url": "https://www.gamestop.com/consoles-hardware/nintendo-switch-2/products/nintendo-switch-2-the-legend-of-zelda-40th-anniversary-edition/20037854.html",
+      "sold_out_phrases": ["sold out", "coming soon", "notify me", "out of stock", "not available", "in-store only", "available in stores"],
+      "in_stock_phrases": ["add to cart"]
+    },
+    {
+      "name": "Amazon - Switch 2 Zelda 40th Anniversary Edition (Console)",
+      "url": "https://www.amazon.com/Nintendo-SwitchTM-Legend-ZeldaTM-Switch-2/dp/B0HJ6F8L6V",
+      "sold_out_phrases": ["currently unavailable", "temporarily out of stock", "see all buying options", "out of stock"],
+      "in_stock_phrases": ["add to cart", "buy now"]
+    }
+  ]
+}

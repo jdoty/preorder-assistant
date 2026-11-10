@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch(domain:www.gamestop.com)",
+      "WebFetch(domain:www.target.com)",
+      "WebFetch(domain:www.nintendo.com)",
+      "WebFetch(domain:www.amazon.com)"
+    ]
+  }
+}
